@@ -1,6 +1,10 @@
 import Hero from "@/components/page-sections/Hero";
 import SocialProof from "@/components/page-sections/SocialProof";
 import Features from "@/components/page-sections/Features";
+import Demo from "@/components/page-sections/Demo";
+import Testimonials from "@/components/page-sections/Testimonials";
+import Pricing from "@/components/page-sections/Pricing";
+import CTA from "@/components/page-sections/CTA";
 
 export default function Home() {
   return (
@@ -8,6 +12,10 @@ export default function Home() {
       <Hero/>
       <SocialProof/>
       <Features/>
+      <Demo/>
+      <Testimonials/>
+      <Pricing/>
+      <CTA/>
     </div>
   );
 }
